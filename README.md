@@ -33,13 +33,13 @@
     DataUtil.hideMiddleString()：隐藏字符串中间字符
     DataUtil.inputStream2Bytes()：inputStream转byteArr
     DataUtil.input2OutputStream()：inputStream转outputStream
-####DensityUtil 像素转换工具
+#### DensityUtil 像素转换工具
 	DensityUtil.getScreenWidth()：获取屏幕的宽度
 	DensityUtil.getScreenHeight()：获取屏幕的高度
 	DensityUtil.dip2px()：dp转换像素px
 	DensityUtil.getScreenSize()：获取屏幕尺寸
 	DensityUtil.px2dip()：像素px转换为dp
-####FileUtil File文件工具
+#### FileUtil File文件工具
 	FileUtil.getRootPath()：得到SD卡根目录
 	FileUtil.getCecheFolder()：获取本应用图片缓存目录
 	FileUtil.isSDCardEnable()：判断SD卡是否可用
@@ -111,7 +111,7 @@
 	FileUtil.file2Base64()：将文件进行Base64加密
 	FileUtil.TextToFile()：传入文件名以及字符串, 将字符串信息保存到文件中
 	FileUtil.readFileByLines()：以行为单位读取文件，常用于读面向行的格式化文件
-####IntentUtil Intent工具类
+#### IntentUtil Intent工具类
     IntentUtil.getInstallAppIntent()：获取安装App(支持7.0)的意图
     IntentUtil.getUninstallAppIntent()：获取卸载App的意图
     IntentUtil.getLaunchAppIntent()：获取打开App的意图
